@@ -1,0 +1,61 @@
+body {
+    background: url(../Images/background.jpg);
+}
+input {
+    /*border: 2px inset #CE93D8 ;*/
+    background-color: rgb(216, 218, 221) ;
+}
+h4 {
+    color: #000000;
+}
+
+a:hover
+{
+    color: #1565C0;text-combine-upright:underline;
+}
+
+a 
+{
+    color:#42A5F5 ; text-decoration: none;
+}
+
+
+table 
+{ 
+     border: medium solid #6495ed;
+     /*border-collapse: collapse;*/  
+     width: 70%; 
+     height: 30px;
+     margin:  00px 00px 00px 250px;
+} 
+ th 
+{  
+     font-family: monospace;  
+     border: thin solid #6495ed;  
+     width: 50%;  
+     padding: 5px;  
+     background-color: #D0E3FA;  
+}  
+td 
+{  
+    font-family: sans-serif; 
+    border: thin solid #6495ed; 
+    width: 50%;  
+    padding: 5px;  
+    text-align: center; 
+    background-color: #ffffff; 
+} 
+
+button
+{
+ margin: 3px 3px 3px 3px ;
+}
+
+.information {
+    text-align:center;
+    margin: 200px  0px 0px 0px ;
+}
+
+.modif {
+    margin: 100px 20px 20px 200px ;
+}

@@ -1,72 +1,78 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <title>todolist.html</title>
+    <link rel="stylesheet" href="../CSS/Style.css">
 </head>
+
 <body>
-     <!--logo-->
-     <img src="../Images/logo formalab.png" alt="logo formalab" width="200">
-     <br>
-     <br>
-     <!--button-->
-     <form >
-            <button><a href="home.html">Deconnexion</a> </button>
-            <br>
-            <br>
-            <button><a href="profil.html">Profil</a></button>
-            <br>
-            <br>
-            <button><a href="ajouttodo.html">AJ Todo </a></button>
-        </form>
+    <!--logo-->
+    <img src="../Images/logo formalab.png" alt="logo formalab" width="200">
+    <br>
+    <br>
+    <!--button-->
+    <form>
+        <button><a href="home.html">Deconnexion</a> </button>
         <br>
         <br>
-        <!--tableau 1-->
-        <table>
-            <h3>Todo list:</h3>
-            <thead>
-                <tr> <th>Description</th> 
-                     <th>Date d'ajout</th>
-                     <th>Action</th>
-                </tr> 
-            </thead>
-            <tbody> 
-                <tr>
-                    <td>Formation html</td>
-                    <td>17.04.2019</td>
-                    <td> 
-                        <button>Done</button>
-                        <button>Modifier</button>
-                        <input type="submit" value="Envoyer"/>
-                    </td>
-                </tr>
-                <tr>
-                        <td> ...  </td>
-                        <td> ...  </td>
-                        <td> ...  </td>
-                </tr>
-            </tbody>
-        </table>
+        <button><a href="profil.html">Profil</a></button>
         <br>
-        <hr>
-        <h2>Done</h2>
-<!--tableau 2-->
-<table>
+        <br>
+        <button><a href="ajouttodo.html">AJ Todo </a></button>
+    </form>
+    <br>
+    <br>
+    <!--tableau 1-->
+    <table>
+        <h3>Todo list:</h3>
         <thead>
-            <tr> <th>Description</th> 
-                 <th>Date d'ajout</th>
-                 <th>Date fin</th>
-                 <th>Action</th>
-            </tr> 
+            <tr>
+                <th>Description</th>
+                <th>Date d'ajout</th>
+                <th>Action</th>
+            </tr>
         </thead>
-        <tbody> 
+        <tbody>
+            <tr>
+                <td>Formation html</td>
+                <td>17.04.2019</td>
+                <td>
+                    <button>Done</button>
+                    <button>Modifier</button>
+                    <button type="submit">Envoyer</button>
+                </td>
+            </tr>
+            <tr>
+                <td> ... </td>
+                <td> ... </td>
+                <td> ... </td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <hr>
+    <h2>Done</h2>
+    <!--tableau 2-->
+    <table>
+        <thead>
+            <tr>
+                <th>Description</th>
+                <th>Date d'ajout</th>
+                <th>Date fin</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
             <tr>
                 <td>Formation</td>
                 <td>2018</td>
                 <td>2019</td>
-                <td> 
-                    <input type="submit" value="Envoyer"/>
+                <td>
+                    <button type="submit">Envoyer</button>
                 </td>
             </tr>
 </body>
+
 </html>
