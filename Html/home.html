@@ -4,37 +4,62 @@
 <head>
     <meta charset="UTF-8">
     <title>home.html</title>
+    <!--code css-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="../CSS/Style.css">
 </head>
 
 <body>
-    <!--logo-->
-    <img src="../Images/logo formalab.png" alt="logo formalab" width="200">
-    <br>
-    <br>
-    <!--Button inscription et connexion-->
-    <form>
-        <button><a href="Inscription.html">Inscription</a> </button>
-        <br>
-        <br>
-        <button><a href="connexion.html">Connexion</a></button>
-    </form>
+    <div class="entete">
+        <!--logo-->
+        <img src="../Images/logo formalab.png" alt="logo formalab" width="200">
+        <!--Button inscription et connexion-->
+        <div class="margin"> <a href="Inscription.html"><button type="button" class="btn btn-light">Inscription</button></a>
+            <a href="connexion.html"><button type="button" class="btn btn-light">Connexion</button></a>
+        </div>
+    </div>
+    <!--Animation-->
+    <div>
+        <div class="spinner-grow text-muted"></div>
+        <div class="spinner-grow text-primary"></div>
+        <div class="spinner-grow text-success"></div>
+        <div class="spinner-grow text-info"></div>
+        <div class="spinner-grow text-warning"></div>
+        <div class="spinner-grow text-danger"></div>
+        <div class="spinner-grow text-secondary"></div>
+        <div class="spinner-grow text-dark"></div>
+        <div class="spinner-grow text-light"></div>
+    </div>
+    <div class="surface">
+        <!--Image-->
+        <div class="d-flex justify-content-center">
+            <img src="../Images/To do list.jpg" alt="programming" width="800" height="400" >
+        </div>
+        <!--To do list-->
+        <h3 class="d-flex justify-content-center">Les taches de jour</h3>
+        <ul class="d-flex justify-content-center">
+            <li class="list-group-item list-group-item-primary"> Reunion avec les controleurs</li>
+            <li class="list-group-item list-group-item-primary">Reunion avec les chefs d'equipes de prod</li>
+            <li class="list-group-item list-group-item-primary">Audit produit</li>
+            <li class="list-group-item list-group-item-primary">Audit planche</li>
+            <li class="list-group-item list-group-item-primary"> Audit classeur</li>
+        </ul>
+    </div>
 
-    <br>
-    <br>
-    <!--Image-->
-    <img src="../Images/coding.png" alt="programming" width="300">
-    <br>
-    <br>
-    <!--To do list-->
-    <h3>Les taches de jour</h3>
-    <ul>
-        <li>Reunion avec les controleurs</li>
-        <li>Reunion avec les chefs d'equipes de prod</li>
-        <li>Audit produit</li>
-        <li>Audit planche</li>
-        <li>Audit classeur</li>
-    </ul>
+
+
+    <!--code js-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
 </body>
 
 </html>

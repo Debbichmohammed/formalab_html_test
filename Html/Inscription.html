@@ -4,56 +4,70 @@
 <head>
     <meta charset="UTF-8">
     <title>Inscription.html</title>
+    <!--code css-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="../CSS/Style.css">
 </head>
 
 <body>
-    <!--logo-->
-    <img src="../Images/logo formalab.png" alt="logo formalab" width="200">
-    <br>
-    <br>
-    <form>
+    <div class="entete">
+        <!--logo-->
+        <img src="../Images/logo formalab.png" alt="logo formalab" width="200">
         <!--button-->
-        <button><a href="connexion.html">Connexion</a></button>
-        <br>
-        <br>
-        <button><a href="home.html">Home</a></button>
-        <br>
-        <br>
+        <div class="margin">
+            <a href="connexion.html"><button type="button" class="btn btn-light">Connexion</button></a>
+            <a href="home.html"><button type="button" class="btn btn-light">Home</button></a>
+        </div>
+    </div>
+    <form>
+
         <!--renseignement-->
-        <h4>Nom:</h4>
-        <input type="text" name="Nom" value="entrer votre nom">
-        <br>
-        <br>
-        <h4>Prenom:</h4>
-        <input type="text" name="Prenom" value="entrer votre prenom">
-        <br>
-        <br>
-        <h4>Date de naissance:</h4>
-        <input type="date" name="Date de naissance">
-        <br>
-        <br>
-        <h4>Genre:</h4>
-        <input type="radio" name="genre" value="Homme">Homme
-        <input type="radio" name="genre" value="femme">femme
-        <br>
-        <br>
-        <h4>Email:</h4>
-        <input type="email" name="emai" value="entrer votre email">
-        <br>
-        <br>
-        <h4>Mot de passe:</h4>
-        <input type="password" name="password">
-        <br>
-        <br>
-        <h4>Repeter Mot de passe:</h4>
-        <input type="password" name="password">
-        <br>
-        <br>
-        <!--submit,reset-->
-        <button type="submit">Envoyer</button>
-        <button type="reset">Effacer</button>
+        <div class="p-3 mb-2 bg-light text-white">
+            <div class="inscreption p-3 mb-2 bg-info">
+                <h4>Nom:</h4>
+                <input type="text" name="Nom" class="form-control" placeholder="entrer votre nom">
+                <h4>Prenom:</h4>
+                <input type="text" name="Prenom" class="form-control" placeholder="entrer votre prenom">
+                <h4>Date de naissance:</h4>
+                <input type="date" class="form-control" name="Date de naissance">
+                <h4>Genre:</h4>
+                <div>
+                    <input type="radio" name="genre" value="Homme">Homme
+                    <input type="radio" name="genre" value="femme">femme
+                </div>
+                <br>
+                <br>
+                <h4>Email:</h4>
+                <input type="email" name="email" class="form-control" placeholder="entrer votre email">
+                <br>
+                <br>
+                <h4>Mot de passe:</h4>
+                <input type="password" class="form-control" name="password" placeholder="entrer votre mot de passe">
+                <br>
+                <br>
+                <h4>Repeter Mot de passe:</h4>
+                <input type="password" name="password" class="form-control" placeholder="Repeter votre Mot de passe">
+                <br>
+                <br>
+                <!--submit,reset-->
+                <button type="submit" class="btn btn-light">Envoyer</button>
+                <button type="reset" class="btn btn-light">Effacer</button>
+            </div>
+        </div>
     </form>
+
+
+    <!--code js-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 
 </body>
 

@@ -1,35 +1,52 @@
+<!DOCTYPE html>
 <html>
 
 <head>
     <meta charset="UTF-8">
     <title>ajouttodo.html</title>
+    <!--code css-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="../CSS/Style.css">
 </head>
 
-<body>
+<body class="bg-info">
     <!--logo-->
     <img src="../Images/logo formalab.png" alt="logo formalab" width="200">
     <br>
     <br>
     <!--button et description-->
     <form>
-        <button><a href="profil.html">Profil</a></button>
+        <div class="margin">
+            <a href="profil.html"><button type="button" class="btn btn-light">Profil</button></a>
+            <a href="home.html"><button type="button" class="btn btn-light">Deconnexion</button></a>
+            <a href="todolist.html"><button type="button" class="btn btn-light">Todo list</button></a>
+        </div>
         <br>
         <br>
-        <button><a href="home.html">Deconnexion</a></button>
-        <br>
-        <br>
-        <button><a href="todolist.html">Todo list</a></button>
-        <br>
-        <br>
-        <h4>Description</h4>
-        <textarea rows="15" cols="50">
+        <div class="text-center" >
+            <h4> Description:</h4>
+            <textarea rows="5" cols="50">
 
-            </textarea>
-        <br>
-        <br>
-        <button> Ajouter </button>
+        </textarea>
+            <br>
+            <button type="button" class="btn btn-secondary"> Ajouter </button>
+        </div>
     </form>
+
+
+
+    <!--code js-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
 
 
 </body>
